@@ -1,0 +1,90 @@
+@media screen and (max-width:500px) {
+body {
+        margin:0;
+        padding:0;
+        width:400px;
+        text-align:center;
+        line-height:160%;
+        font-family:"Meiryo-UI", "MS P Gothic", "Osaka","Helvetica Neue", sans-serif;
+}
+
+a {outline:none;}
+a:link {color:#000000;text-decoration:none;}
+a:visited {color:#000000;text-decoration:none;}
+a:hover {color:#ff3388;text-decoration:none;}
+a:active {color:#000000;text-decoration:none;}
+
+
+
+
+.header {
+        position:relative;
+        text-align:center;
+        margin:10px auto;
+        padding:30px 0;
+        line-height:100%;
+        width:380px;
+}
+
+.blog-title {
+        font-size:35px;
+}
+
+.menu {
+        position:relative;
+        list-style-type:none;
+        top:15px;
+        left:0;
+}
+
+       .menu li {
+               text-align:center;
+                margin:0;
+                padding:0;
+                width:100px;
+                float:left;
+        }
+
+                .menu.li.a {
+                        display:block;
+                }
+
+hr {
+        width:350px;
+        margin:20px auto;
+}
+
+.diary {
+        position:relative;
+        margin:10px auto;
+        width:350px;
+        height:90px;
+}
+
+.diary-date {
+        text-align:left;
+        margin:5px 0 0 20px;
+}
+
+.diary-title {
+        margin:22px 0 0 10px;
+        font-size:20px;
+}
+
+.diary-page {
+        position:relative;
+        text-align:left;
+        margin:10px auto;
+        width:350px;
+}
+
+p {
+        margin:0 0 0 25px;
+}
+
+.footer {
+        clear:both;
+        position:relative;
+        padding:40px 0 30px 0;
+}
+}
